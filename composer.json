@@ -33,6 +33,9 @@
         "drupal/core-project-message": "^9.0",
         "drupal/core-recommended": "^9.0",
         "drupal/geofield": "^1.15",
+        "drupal/leaflet": "^2.0",
+        "drupal/token": "^1.7",
+        "drupal/pathauto": "^1.8",
         "apermuy/aeira-profile": "*"
     },
     "require-dev": {

@@ -20,7 +20,7 @@ O repositorio que estás a visitar contén un único arquivo **composer.json** d
 ### Requirimentos
 
 * PHP - Versión 7.3 ou máis recente.
-* Base de datos - A capa da abstración de base de datos de (Drupal)
+* Base de datos - A base de datos en (Drupal) proporciona está incluida dentro dunha capa de abstración que fai, en certo modo, indiferente o emprego de MySQL, SQLite ou PostgreSQL.
 * Servidor web - AEira funciona ben con [Nginx](https://www.nginx.org), debería tamén facelo con Apache2 ou Hiawatha.
 * Sistema operativo. AEira funciona ben en **Linux**, tamén en **OSX**.  :kissing:
 
