@@ -16,11 +16,11 @@
 	    {
 			"type": "package",
 			"package": {
-				"name": "apermuy/aeira",
+				"name": "apermuy/aeira-profile",
 				"version": "dev-master",
 				"type": "drupal-profile",
 				"source": {
-					"url": "https://github.com/apermuy/aeira",
+					"url": "https://github.com/apermuy/aeira-profile",
 					"type": "git",
 					"reference": "devel"
 				}
@@ -32,7 +32,8 @@
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/core-project-message": "^9.0",
         "drupal/core-recommended": "^9.0",
-        "apermuy/aeira": "*"
+        "drupal/geofield": "^1.15",
+        "apermuy/aeira-profile": "*"
     },
     "require-dev": {
         "drupal/core-dev": "^9.0"
