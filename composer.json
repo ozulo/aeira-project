@@ -1,9 +1,9 @@
 {
-    "name": "me/my-project",
-    "description": "My custom Drupal project",
+    "name": "apermuy/aeira-project",
+    "description": "AEira Drupal Project",
     "type": "project",
-    "license": "proprietary",
-    "homepage": "https://www.example.com",
+    "license": "todo",
+    "homepage": "https://www.permuy.org",
     "repositories": [
         {
             "type": "composer",
@@ -44,7 +44,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "preferred-install": "source"
     },
     "extra": {
         "drupal-scaffold": {
