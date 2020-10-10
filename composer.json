@@ -1,9 +1,9 @@
 {
-    "name": "apermuy/aeira-project",
+    "name": "ozulo/aeira-project",
     "description": "AEira Drupal Project",
     "type": "project",
     "license": "todo",
-    "homepage": "https://www.permuy.org",
+    "homepage": "https://www.comunidadeozulo.org",
     "repositories": [
         {
             "type": "composer",
@@ -16,11 +16,11 @@
 	    {
 			"type": "package",
 			"package": {
-				"name": "apermuy/aeira-profile",
+				"name": "ozulo/aeira-profile",
 				"version": "dev-master",
 				"type": "drupal-profile",
 				"source": {
-					"url": "https://github.com/apermuy/aeira-profile",
+					"url": "https://github.com/ozulo/aeira-profile",
 					"type": "git",
 					"reference": "devel"
 				}
@@ -65,7 +65,7 @@
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
             "web/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
-            "apermuy/aeira": ["type:drupal-profile"]
+            "ozulo/aeira": ["type:drupal-profile"]
         },
         "drupal-core-project-message": {
             "include-keys": ["homepage", "support"],
