@@ -25,6 +25,19 @@
 					"reference": "devel"
 				}
 			}
+		},
+	    {
+			"type": "package",
+			"package": {
+				"name": "ozulo/aeira-theme",
+				"version": "dev-master",
+				"type": "drupal-theme",
+				"source": {
+					"url": "https://github.com/ozulo/aeira-theme",
+					"type": "git",
+					"reference": "devel"
+				}
+			}
 		}
     ],
     "require": {
@@ -36,7 +49,9 @@
         "drupal/leaflet": "^2.0",
         "drupal/token": "^1.7",
         "drupal/pathauto": "^1.8",
-        "ozulo/aeira-profile": "*"
+        "drupal/bootstrap_barrio": "^5.1.3",
+        "ozulo/aeira-profile": "*",
+        "ozulo/aeira-theme": "*"
     },
     "require-dev": {
         "drupal/core-dev": "^9.0"
