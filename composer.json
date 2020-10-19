@@ -96,6 +96,11 @@
             "web/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
             "ozulo/aeira": ["type:drupal-profile"]
+        },     
+        "patches": {
+            "drupal/core": {
+                "Drupal core fix infinite loop": "https://www.drupal.org/files/issues/2020-09-06/installation_redirect_loop-3158071-17.patch"     
+            }
         },
         "drupal-core-project-message": {
             "include-keys": ["homepage", "support"],
