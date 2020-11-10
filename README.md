@@ -52,6 +52,6 @@ Podes servir o directorio **/var/www/aeira/web** para publicar elementos patrimo
 
 Este proxecto forma parte das actividades que a asociación [MeLiSA](https://www.melisa.gal) realiza ao abeiro do convenio de colaboración asinado coa [Axencia para a Modernización Tecnolóxica](https://amtega.xunta.gal) (AMTEGA), e está incluída no Plan de Acción de Software Libre 2020 da [Xunta de Galicia](https://www.xunta.gal).
 
-Os traballos realizados están dispoñibles baixo unha licenza GNU GENERAL PUBLIC LICENSE v3, tal e como se recolle no ficheiro COPYING.
+Os traballos realizados están dispoñibles baixo unha licenza [GNU GENERAL PUBLIC LICENSE v3](https://www.gnu.org/licenses/gpl-3.0.html), tal e como se recolle no ficheiro COPYING.
 
 ![image](/img/bottom.png)
