@@ -19,8 +19,8 @@ O repositorio que estás a visitar contén un único arquivo **composer.json** d
 
 ### Requirimentos
 
-* PHP - Versión 7.3 ou máis recente.
-* Base de datos - A base de datos en (Drupal) proporciona está incluida dentro dunha capa de abstración que fai, en certo modo, indiferente o emprego de MySQL, SQLite ou PostgreSQL.
+* PHP - Versión 8.0 ou máis recente.
+* Base de datos - Nun contexto Drupal, a xestión da base de datos está incluida dentro dunha capa de abstración que fai, en certo modo, indiferente o emprego de MySQL, SQLite ou PostgreSQL.
 * Servidor web - AEira funciona ben con [Nginx](https://www.nginx.org), debería tamén facelo con Apache2 ou Hiawatha.
 * Sistema operativo. AEira funciona ben en **Linux**, tamén en **OSX**.  :kissing:
 
@@ -36,7 +36,7 @@ Copia o arquivo composer.json ó directorio de instalación do sitio, por exempl
 
 ```php
 cp composer.json /var/www/aeira && cd /var/www/aeira
-composer install --prefer-source
+composer install --prefer-dist --no-dev --no-interaction
 ```
 
 Executa drush para iniciar a instalación. Exemplo para instalación con MySQL como backend de base de datos.
