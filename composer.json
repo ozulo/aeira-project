@@ -58,7 +58,7 @@
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/core-project-message": "^9.0",
         "drupal/core-recommended": "^9.0",
-        "drush/drush": "^10",
+        "drush/drush": "^11",
         "drupal/geofield": "^1.15",
         "drupal/leaflet": "^2.0",
         "drupal/token": "^1.7",
